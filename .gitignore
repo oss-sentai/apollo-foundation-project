@@ -1,0 +1,8 @@
+node_modules
+.docker/mysql/data
+.docker/mysql/init
+yarn-error.log
+.idea
+.history
+.env
+app.log
