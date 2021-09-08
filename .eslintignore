@@ -1,1 +1,4 @@
 # あとで増やします
+src/@types/graphql.d.ts
+src/tests
+src/schema/scalarType.ts
