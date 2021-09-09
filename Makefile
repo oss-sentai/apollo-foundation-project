@@ -1,11 +1,11 @@
 build:
 	cp .env.example .env
 	docker-compose up -d --build
-	@echo 🚀Runnning http://localhost:8080
+	@echo 🚀Runnning http://localhost:8080/graphql
 
 up:
 	docker-compose up -d
-	@echo 🚀Runnning http://localhost:8080
+	@echo 🚀Runnning http://localhost:8080/graphql
 
 down:
 	docker-compose down
